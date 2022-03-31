@@ -47,7 +47,7 @@ class ExampleNotification extends Notification
 #### Not: 
 Notification özelliği eklenecek Model dosyasına aşağıdaki kodu eklemeyi unutmayınız.
 ```php
-    public function routeNotificationForSmsApi() {
+    public function routeNotificationForPostaGuvercini() {
         return $this->phone; //Model içerisindeki telefon numarasının fieldi olacak.
     }    
 ```
