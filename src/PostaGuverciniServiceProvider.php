@@ -42,7 +42,6 @@ class PostaGuverciniServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->bootForConsole();
         }
-        $this->loadRoutesFrom(__DIR__ . '/Routes/routes.php');
     }
 
     protected function bootForConsole()
