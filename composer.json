@@ -1,0 +1,28 @@
+{
+  "name": "serefercelik/postaguvercini",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Şeref Ercelik",
+      "email": "seref@ercelik.net"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "SerefErcelik\\PostaGuvercini\\": "src/"
+    }
+  },
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SerefErcelik\\PostaGuvercini\\PostaGuverciniServiceProvider"
+      ],
+      "aliases": {
+        "PostaGuvercini": "SerefErcelik\\PostaGuvercini\\Facades\\PostaGuvercini"
+      }
+    }
+  }
+}
